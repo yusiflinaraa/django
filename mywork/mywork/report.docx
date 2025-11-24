@@ -1,0 +1,26 @@
+Django-nun veb inkişafındakı rolu:
+
+- Backend və frontend-i asan birləşdirir.
+- MVT arxitekturası ilə layihələri strukturlu edir.
+- Verilənlər bazası idarəsini sadələşdirir.
+- Tez və təhlükəsiz veb saytlar hazırlamağa imkan verir.
+- Web tətbiqlərin inkişafını sürətləndirir.
+
+
+
+MVC vs MVT
+
+Model:
+- Hər ikisi verilənlər bazasını idarə edir.
+
+Controller / View / Template:
+- MVC: Controller məntiqi icra edir, View göstərir.
+- MVT: View həm məntiqi icra edir, həm Template-ə məlumat ötürür. Template göstərir.
+
+Fərq:
+- MVC-də Controller və View ayrı.
+- MVT-də View həm Controller rolunda, həm də Template-ə məlumat verir.
+
+Tətbiq:
+- MVC: Java, PHP, C# və s.
+- MVT: Django (Python)
